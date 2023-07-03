@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>accessories</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">accessories</ion-title>
+    </ion-toolbar>
+    <img src="/src/assets/Imagenes/WhatsApp Image 2021-02-19 at 3.20.42 PM.jpeg">
+  </ion-header>
+  <div id="container">
+    <button ion-button [routerLink]="['/home']" class="btn">Ir a Inicio</button>
+  </div>
+
+  <ion-list>
+   
+    <ion-list-header>
+      <ion-label > Accesorios Gamer<ion-icon name="storefront-outline"></ion-icon></ion-label>
+      <ion-button>Ver Todo</ion-button>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Mouse  <ion-icon name="game-controller"></ion-icon></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Teclados <ion-icon name="desktop-outline"></ion-icon></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Chasis <ion-icon name="rocket-outline"></ion-icon></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pad Mouse <ion-icon name="move-outline"></ion-icon></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Headset <ion-icon name="sad-outline"></ion-icon></ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
